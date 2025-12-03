@@ -1,0 +1,75 @@
+class SpaceSystemCost:
+    """Cost analysis for space-based quantum shield"""
+    
+    def calculate_total_cost(self, constellation_size=24, years=10):
+        """Calculate total system cost"""
+        
+        # Development costs (non-recurring)
+        development_costs = {
+            'research_development': {
+                'quantum_sensor_rd': 250,  # $M
+                'space_qualification': 150,
+                'prototype_development': 200,
+                'testing_validation': 100,
+                'subtotal': 700,
+            },
+            'ground_infrastructure': {
+                'mission_control': 50,
+                'data_processing_center': 100,
+                'quantum_comm_ground_stations': 80,
+                'user_terminals': 50,
+                'subtotal': 280,
+            },
+            'system_engineering': {
+                'systems_engineering': 80,
+                'program_management': 60,
+                'integration_testing': 120,
+                'subtotal': 260,
+            },
+            'total_development': 1240,  # $M
+        }
+        
+        # Production costs (recurring)
+        production_costs = {
+            'satellite_production': {
+                'unit_cost': 40,  # $M per satellite (including payload)
+                'quantity': constellation_size,
+                'total': 40 * constellation_size,
+            },
+            'launch_services': {
+                'cost_per_launch': 80,  # $M (average for 4 satellites/launch)
+                'launches': np.ceil(constellation_size / 4),
+                'total': 80 * np.ceil(constellation_size / 4),
+            },
+            'total_production': (40 * constellation_size) + (80 * np.ceil(constellation_size / 4)),
+        }
+        
+        # Operations and maintenance (annual)
+        annual_om_costs = {
+            'satellite_operations': 20,  # $M/year
+            'ground_station_ops': 15,
+            'data_processing_ops': 25,
+            'maintenance_upgrades': 30,
+            'personnel': 40,
+            'total_per_year': 130,
+        }
+        
+        # Total 10-year cost
+        total_10yr_cost = (
+            development_costs['total_development'] +
+            production_costs['total_production'] +
+            (annual_om_costs['total_per_year'] * years)
+        )
+        
+        return {
+            'development_costs_m': development_costs,
+            'production_costs_m': production_costs,
+            'annual_operations_m': annual_om_costs,
+            'total_10yr_cost_m': total_10yr_cost,
+            'cost_per_satellite_m': production_costs['satellite_production']['unit_cost'],
+            'cost_per_day_m': total_10yr_cost / (10 * 365),
+        }
+
+# Calculate costs
+cost_analyzer = SpaceSystemCost()
+costs = cost_analyzer.calculate_total_cost(constellation_size=24, years=10)
