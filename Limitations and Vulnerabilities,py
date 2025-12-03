@@ -1,0 +1,34 @@
+class SystemLimitations:
+    """Limitations and vulnerabilities of space-based system"""
+    
+    def get_limitations(self):
+        limitations = {
+            'technical_challenges': {
+                'quantum_decoherence': 'Maintaining entanglement in space environment',
+                'pointing_accuracy': 'μrad pointing required for quantum communication',
+                'thermal_management': 'Cryogenic cooling in space',
+                'radiation_hardening': 'Quantum components sensitive to radiation',
+            },
+            'operational_limitations': {
+                'weather_effects': 'Cloud cover affects ground target tracking',
+                'target_density': 'Urban clutter can cause false alarms',
+                'processing_requirements': 'Massive data processing needed',
+                'latency': 'Detection-to-response latency constraints',
+            },
+            'vulnerabilities': {
+                'anti_satellite_weapons': 'Physical attack on satellites',
+                'laser_dazzling': 'Blinding of optical sensors',
+                'cyber_attack': 'Compromise of ground systems',
+                'spoofing': 'Electronic deception techniques',
+                'space_debris': 'Collision risk with orbital debris',
+            },
+            'countermeasures_needed': {
+                'hardening': 'Radiation and laser hardening',
+                'redundancy': 'Constellation redundancy and rapid replenishment',
+                'maneuverability': 'Orbital maneuver capability',
+                'deception': 'Stealth and deception for own satellites',
+                'self_defense': 'Limited defensive capabilities',
+            }
+        }
+        
+        return limitations
