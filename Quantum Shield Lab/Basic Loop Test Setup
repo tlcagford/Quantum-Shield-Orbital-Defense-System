@@ -1,0 +1,5 @@
+1. Assemble NV center sensor with off-the-shelf components
+2. Build calibrated magnetic signal source
+3. Write basic loop test script
+4. Run 100 iterations of simple detection test
+5. Document initial performance metrics
