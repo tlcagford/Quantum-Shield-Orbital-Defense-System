@@ -1,0 +1,7 @@
+Step 3: NV Center Imaging Setup
+1. Mount diamond sample on XYZ translation stage
+2. Install 100x microscope objective
+3. Align excitation path:
+   Laser → Isolator → Dichroic → Objective → Sample
+4. Install collection path:
+   Sample → Objective → Dichroic → Bandpass filter → Photodetector
