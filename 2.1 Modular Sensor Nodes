@@ -1,0 +1,17 @@
+Sensor Node Design:
+┌─────────────────────────────────┐
+│ Quantum Core                    │
+│  • Entangled photon source      │
+│  • Quantum state analyzer       │
+│  • Decoherence compensation     │
+├─────────────────────────────────┤
+│ Classical Interface             │
+│  • FPGA for real-time processing│
+│  • Secure comms (QKD optional)  │
+│  • Power management             │
+├─────────────────────────────────┤
+│ Environmental Suite             │
+│  • Temperature control (mK)     │
+│  • Magnetic shielding           │
+│  • Vibration isolation          │
+└─────────────────────────────────┘
