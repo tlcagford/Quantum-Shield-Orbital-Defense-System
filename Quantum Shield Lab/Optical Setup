@@ -1,0 +1,10 @@
+Step 1: Optical Table Assembly
+1. Assemble vibration-isolated optical table (Newport RS-4000 or equivalent)
+2. Level table to <0.1° using precision level
+3. Mount breadboard on vibration isolators
+
+Step 2: Laser System Installation
+1. Mount 532nm laser on optical post
+2. Install optical isolator (30dB minimum isolation)
+3. Align beam to table height (typically 4.5")
+4. Install beam expander (3x) for uniform illumination
