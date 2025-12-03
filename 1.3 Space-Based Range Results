@@ -1,0 +1,20 @@
+SPACE-BASED DETECTION RANGES (500 km LEO orbit):
+================================================================
+Target Type         Maximum      Ground     Warning   Target
+                    Range (km)   Range (km) Time (s)  Altitude
+================================================================
+Hypersonic Missile   1,250        1,000      250       50 km
+Stealth Aircraft     2,500        2,450      8,333     10 km
+Small Drone          2,500        2,500      50,000    0.1 km
+Satellite            400          N/A        53        500 km
+ICBM Warhead         790          600        113       200 km
+================================================================
+
+ASSUMPTIONS:
+- 1 meter aperture telescope
+- 100 MHz photon pair rate
+- 1 second integration time
+- Quantum advantage: 4x (6 dB)
+- 500 km LEO orbit altitude
+
+NOTE: These are theoretical maximums. Real systems may achieve 50-70% of these ranges.
