@@ -1,0 +1,16 @@
+Cryogenic Setup ($12-20k):
+1. Montana Instruments Cryostation ($15,000)
+2. Closed-cycle helium cryocooler
+3. Temperature range: 4K - 300K
+4. Optical access windows
+
+Benefits:
+- T₂ coherence time: 300μs → 1ms+
+- Sensitivity improvement: 10x
+- Can use superconducting sensors
+
+Installation:
+1. Mount diamond in cryostat sample holder
+2. Install fiber optic feedthroughs
+3. Connect microwave lines with thermal anchoring
+4. Pump to <10⁻⁶ mbar vacuum
