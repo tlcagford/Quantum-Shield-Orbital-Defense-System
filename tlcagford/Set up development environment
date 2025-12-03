@@ -1,0 +1,5 @@
+git clone https://github.com/tlcagford/quantum-shield-sim
+cd quantum-shield-sim
+python -m venv qs-env
+source qs-env/bin/activate
+pip install -r requirements.txt
