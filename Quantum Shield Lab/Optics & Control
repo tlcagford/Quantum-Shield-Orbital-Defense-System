@@ -1,0 +1,15 @@
+4. Laser System
+   - Cobolt 06-DPL 532nm laser ($3,500)
+   - Thorlabs laser mount + temperature control ($800)
+   - Optical isolator ($600)
+
+5. Optics Package
+   - Dichroic mirrors (532/637nm) ($400)
+   - Bandpass filters 650-750nm ($300)
+   - Microscope objective 100x, NA 0.9 ($1,200)
+   - 3-axis translation stage ($800)
+
+6. Control Electronics
+   - National Instruments DAQ PCIe-6363 ($2,000)
+   - SpinCore PulseBlasterESR-Pro ($3,500)
+   - Arduino Mega for basic control ($50)
