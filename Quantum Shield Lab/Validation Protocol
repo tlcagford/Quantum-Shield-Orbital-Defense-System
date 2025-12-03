@@ -1,0 +1,18 @@
+Phase 1 (Basic Loop Test) - Success if:
+- Detection probability > 0.9 for signals > 1 μT at 10cm
+- False alarm rate < 0.01
+- Response time < 500ms
+- System runs for 24 hours without failure
+
+Phase 2 (Enhanced Test) - Success if:
+- Sensitivity < 10 nT/√Hz
+- Detection probability > 0.95 for signals > 100 nT at 1m
+- False alarm rate < 0.001
+- Response time < 100ms
+- Multi-sensor fusion improves performance by >20%
+
+Phase 3 (Field Test) - Success if:
+- Detect small drone (30cm) at >50m range
+- Classification accuracy > 90%
+- System operates in real environmental conditions
+- Meets all safety and regulatory requirements
