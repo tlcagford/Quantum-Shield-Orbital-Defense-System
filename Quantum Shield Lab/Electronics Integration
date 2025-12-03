@@ -1,0 +1,8 @@
+Step 4: Control System Wiring
+1. Connect PulseBlaster to microwave generator
+2. Wire photodetector to NI DAQ
+3. Set up magnetic field coils:
+   X-axis: 10cm diameter, 100 turns
+   Y-axis: 10cm diameter, 100 turns  
+   Z-axis: 10cm diameter, 100 turns
+4. Install magnetic shielding around sample
