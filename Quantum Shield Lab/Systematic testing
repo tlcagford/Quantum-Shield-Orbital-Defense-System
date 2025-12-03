@@ -1,0 +1,26 @@
+Test Matrix:
+------------
+1. Sensitivity Tests
+   - Minimum detectable field (nT/√Hz)
+   - Spatial resolution (μm)
+   - Temporal resolution (ms)
+
+2. Range Tests
+   - Maximum detection range
+   - Range vs. object size
+   - Atmospheric effects
+
+3. Multi-Target Tests
+   - Object separation resolution
+   - Simultaneous tracking capacity
+   - Cross-talk between sensors
+
+4. Environmental Robustness
+   - Temperature stability
+   - Vibration immunity
+   - EMI rejection
+
+5. Quantum Advantage Verification
+   - Compare with classical baseline
+   - Entanglement verification
+   - Non-classical correlation measurement
