@@ -1,0 +1,20 @@
+DETECTION CAPABILITIES:
+─────────────────────────────────────────────────────────────
+Threat Type         Detection Range   Warning Time   P_d
+─────────────────────────────────────────────────────────────
+ICBM Launch         Global            25-30 min      0.99
+Hypersonic Weapon   1,000-1,500 km    3-4 min        0.95
+Stealth Aircraft    500-1,000 km      5-10 min       0.90
+Cruise Missile      200-500 km        25-27 min      0.85
+Small Drone         50-100 km         1-2 min        0.80
+Naval Vessel        500-1,000 km      Hours          0.99
+Submarine           10-50 km          Variable       0.70
+─────────────────────────────────────────────────────────────
+
+CONSTELLATION CHARACTERISTICS:
+─────────────────────────────────────────────────────────────
+Satellites: 24 in LEO (500-600 km altitude)
+Coverage: Global, <30 minute revisit time
+Lifetime: 5-7 years per satellite
+Cost: $2.95B over 10 years
+Deployment: 5-7 years to full capability
