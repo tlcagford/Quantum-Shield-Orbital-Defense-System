@@ -1,0 +1,17 @@
+repositories/
+├── quantum-sensor-sim
+│   ├── entanglement-models
+│   ├── noise-simulations
+│   └── detection-algorithms
+├── quantum-hardware-interfaces
+│   ├── nv-center-control
+│   ├── photon-detector-api
+│   └── cryogenic-control
+├── data-fusion-engine
+│   ├── quantum-ml-models
+│   ├── classical-fusion
+│   └── visualization-tools
+└── system-integration
+    ├── network-protocols
+    ├── security-modules
+    └── deployment-tools
