@@ -1,0 +1,60 @@
+# deployment/kubernetes/quantum-shield-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quantum-shield-sensor-node
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: quantum-sensor
+  template:
+    metadata:
+      labels:
+        app: quantum-sensor
+    spec:
+      containers:
+      - name: quantum-sensor
+        image: tlcagford/quantum-shield:latest
+        ports:
+        - containerPort: 8080
+        - containerPort: 5000  # Quantum hardware interface
+        env:
+        - name: QUANTUM_HARDWARE_TYPE
+          value: "nv_diamond"
+        - name: SENSOR_NETWORK_ID
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        resources:
+          requests:
+            memory: "4Gi"
+            cpu: "2000m"
+            nvidia.com/gpu: 1  # For quantum simulation acceleration
+          limits:
+            memory: "8Gi"
+            cpu: "4000m"
+            nvidia.com/gpu: 1
+        securityContext:
+          privileged: true  # Required for hardware access
+        volumeMounts:
+        - name: quantum-hardware
+          mountPath: /dev/quantum
+      volumes:
+      - name: quantum-hardware
+        hostPath:
+          path: /dev/quantum
+          type: Directory
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: quantum-shield-service
+spec:
+  selector:
+    app: quantum-sensor
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080
+  type: LoadBalancer
