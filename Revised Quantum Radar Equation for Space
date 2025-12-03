@@ -1,0 +1,9 @@
+Space-Based Range Equation:
+
+R_max = [N_s * η * σ * A_r / (4π * λ² * (ln(1/(1-P_d)) + Background)]^(1/4)
+
+Where in space:
+- Background noise: Cosmic microwave background (2.7K) only
+- Atmospheric loss: 0 dB
+- Turbulence: None
+- Integration time: Can be much longer (seconds to minutes)
