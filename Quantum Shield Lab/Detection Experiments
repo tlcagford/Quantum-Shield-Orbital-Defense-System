@@ -1,0 +1,27 @@
+Test 1: Static Magnetic Object Detection
+----------------------------------------
+Procedure:
+1. Place small neodymium magnet (1cm³) at 10cm distance
+2. Measure magnetic field with NV sensor
+3. Move magnet in 1cm increments
+4. Record detection threshold
+
+Expected Results:
+- Detect magnet at >5cm distance
+- Field strength: ~100 μT at 5cm
+- Noise floor: <10 nT/√Hz
+
+Test 2: Moving Object Detection
+--------------------------------
+Procedure:
+1. Mount magnet on linear translation stage
+2. Move at controlled speeds (1-10 cm/s)
+3. Measure time-dependent signal
+4. Calculate detection probability vs speed
+
+Test 3: Multiple Object Discrimination
+---------------------------------------
+Procedure:
+1. Place two magnets at varying separations
+2. Measure spatial field pattern
+3. Use deconvolution to separate sources
