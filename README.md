@@ -469,7 +469,7 @@ def process_quantum_data(
 
 ### **License**
 ```
-Copyright 2024 Quantum Shield Development Team
+Copyright 2025 Quantum Shield Development Team
 
 This project is released for research and educational purposes only.
 Commercial use, weapons development, or military applications require
@@ -505,8 +505,8 @@ See LICENSE file for full terms.
 ### **Support Channels**
 - **GitHub Issues**: Bug reports and feature requests
 - **Discussions**: Technical discussions and research collaboration
-- **Email**: quantum.shield.research@protonmail.com
-- **Security**: security@quantum-shield-research.org
+- **Email**: tlcagford@gmail.com
+- **Security**: 
 
 ### **Collaboration Opportunities**
 1. **Academic Partnerships**: University quantum research labs
