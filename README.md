@@ -1,3 +1,5 @@
+**<img width="300" height="150" alt="QuantumShieldOrbitalDefense" src="https://github.com/user-attachments/assets/2dfb561a-8c70-4851-9f52-c18ae9626f73" />
+
 # **QUANTUM SHIELD - QUANTUM ENHANCED DETECTION SYSTEM**
 
 ![Quantum Shield Banner](https://img.shields.io/badge/Technology-Quantum_Sensing-blue)
