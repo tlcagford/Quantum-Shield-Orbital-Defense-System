@@ -8,8 +8,9 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-green)
 ![Qiskit](https://img.shields.io/badge/Quantum-Qiskit%2C_Cirq%2C_PennyLane-blueviolet)
 
-Photon Dark Photon FDM Wave Application 
-](https://qciastroentanglerefiner-awpyvm8ydzyyqu4qfwysze.streamlit.app/)
+ Photon Dark Photon FDM Wave Application for Proof of Concept!!
+
+(https://qciastroentanglerefiner-awpyvm8ydzyyqu4qfwysze.streamlit.app/)   TRY ME!
 
 ## **🚀 Overview**
 
